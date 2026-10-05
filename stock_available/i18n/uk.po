@@ -36,3 +36,8 @@ msgstr "<span class=\"o_stat_text\">Потенційно</span>"
 #: model:ir.model.fields,field_description:stock_available.field_product_template__immediately_usable_qty
 msgid "Available to promise"
 msgstr "Доступно до обіцянки"
+
+#. module: stock_available
+#: model_terms:ir.ui.view,arch_db:stock_available.view_stock_available_kanban
+msgid "Available to Promise:"
+msgstr "Доступно для обіцянки:"

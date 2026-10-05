@@ -23,3 +23,33 @@ msgstr "Не зарезервовано"
 #: model_terms:ir.ui.view,arch_db:stock_available_unreserved.product_template_kanban_stock_view
 msgid "Unreserved:"
 msgstr "Не зарезервовано:"
+
+#. module: stock_available_unreserved
+#: model:ir.model.fields,field_description:stock_available_unreserved.field_stock_quant__contains_unreserved
+msgid "Contains unreserved products"
+msgstr "Містить незарезервовані товари"
+
+#. module: stock_available_unreserved
+#: model_terms:ir.ui.view,arch_db:stock_available_unreserved.quant_search_view
+msgid "Internal Unreserved"
+msgstr "Внутрішнє незарезервоване"
+
+#. module: stock_available_unreserved
+#: model:ir.model.fields,field_description:stock_available_unreserved.field_product_product__qty_available_not_res
+msgid "Qty Available Not Reserved"
+msgstr "Доступна незарезервована кількість"
+
+#. module: stock_available_unreserved
+#: model:ir.model.fields,field_description:stock_available_unreserved.field_product_template__qty_available_not_res
+msgid "Quantity On Hand Unreserved"
+msgstr "Незарезервована кількість у наявності"
+
+#. module: stock_available_unreserved
+#: model_terms:ir.ui.view,arch_db:stock_available_unreserved.product_template_search_form_view_stock
+msgid "Reservable Products"
+msgstr "Товари, які можна резервувати"
+
+#. module: stock_available_unreserved
+#: model:ir.actions.act_window,name:stock_available_unreserved.product_open_quants_unreserved
+msgid "Stock On Hand (Unreserved)"
+msgstr "Запас у наявності (незарезервований)"
