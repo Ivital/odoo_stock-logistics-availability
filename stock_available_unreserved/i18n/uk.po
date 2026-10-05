@@ -62,3 +62,9 @@ msgid ""
 msgstr ""
 "Кількість цього товару, яка наразі не зарезервована для складського "
 "переміщення"
+
+#. module: stock_available_unreserved
+#. odoo-python
+#: code:addons/stock_available_unreserved/models/product_template.py:0
+msgid "Free to Use Quantity"
+msgstr "Кількість, доступна для використання"
