@@ -18,3 +18,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_available.field_product_template__potential_qty
 msgid "Potential"
 msgstr "Потенціал"
+
+#. module: stock_available
+#: model_terms:ir.ui.view,arch_db:stock_available.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:stock_available.view_stock_available_form
+msgid "<span class=\"o_stat_text\">Available</span>"
+msgstr "<span class=\"o_stat_text\">Доступно</span>"
+
+#. module: stock_available
+#: model_terms:ir.ui.view,arch_db:stock_available.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:stock_available.view_stock_available_form
+msgid "<span class=\"o_stat_text\">Potential</span>"
+msgstr "<span class=\"o_stat_text\">Потенційно</span>"
+
+#. module: stock_available
+#: model:ir.model.fields,field_description:stock_available.field_product_product__immediately_usable_qty
+#: model:ir.model.fields,field_description:stock_available.field_product_template__immediately_usable_qty
+msgid "Available to promise"
+msgstr "Доступно до обіцянки"
