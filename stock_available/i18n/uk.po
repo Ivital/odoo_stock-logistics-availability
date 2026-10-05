@@ -41,3 +41,39 @@ msgstr "Доступно до обіцянки"
 #: model_terms:ir.ui.view,arch_db:stock_available.view_stock_available_kanban
 msgid "Available to Promise:"
 msgstr "Доступно для обіцянки:"
+
+#. module: stock_available
+#: model:ir.model.fields,help:stock_available.field_product_product__potential_qty
+msgid ""
+"Quantity of this Product that could be produced using the materials already "
+"at hand."
+msgstr "Кількість цього товару, яку можна виробити з уже наявних матеріалів."
+
+#. module: stock_available
+#: model:ir.model.fields,help:stock_available.field_product_template__potential_qty
+msgid ""
+"Quantity of this Product that could be produced using the materials already "
+"at hand. If the product has several variants, this will be the biggest "
+"quantity that can be made for a any single variant."
+msgstr ""
+"Кількість цього товару, яку можна виготовити з матеріалів, що вже є в "
+"наявності. Якщо товар має кілька варіантів, це буде найбільша кількість, яку"
+" можна виготовити для будь-якого одного варіанта."
+
+#. module: stock_available
+#: model:ir.model.fields,help:stock_available.field_product_template__immediately_usable_qty
+msgid ""
+"Stock for this Product that can be safely proposed for sale to Customers.\n"
+"The definition of this value can be configured to suit your needs"
+msgstr ""
+"Запас цього товару, який можна безпечно пропонувати клієнтам для продажу.\n"
+"Визначення цього значення можна налаштувати відповідно до ваших потреб."
+
+#. module: stock_available
+#: model:ir.model.fields,help:stock_available.field_product_product__immediately_usable_qty
+msgid ""
+"Stock for this Product that can be safely proposed for sale to Customers.\n"
+"The definition of this value can be configured to suit your needs."
+msgstr ""
+"Запас цього товару, який можна безпечно пропонувати клієнтам для продажу.\n"
+"Визначення цього значення можна налаштувати відповідно до ваших потреб."

@@ -53,3 +53,12 @@ msgstr "Товари, які можна резервувати"
 #: model:ir.actions.act_window,name:stock_available_unreserved.product_open_quants_unreserved
 msgid "Stock On Hand (Unreserved)"
 msgstr "Запас у наявності (незарезервований)"
+
+#. module: stock_available_unreserved
+#: model:ir.model.fields,help:stock_available_unreserved.field_product_product__qty_available_not_res
+#: model:ir.model.fields,help:stock_available_unreserved.field_product_template__qty_available_not_res
+msgid ""
+"Quantity of this product that is not currently reserved for a stock move"
+msgstr ""
+"Кількість цього товару, яка наразі не зарезервована для складського "
+"переміщення"

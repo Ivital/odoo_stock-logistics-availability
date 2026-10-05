@@ -22,3 +22,8 @@ msgstr "Виключати з негайно доступної кількост
 #: model_terms:ir.ui.view,arch_db:stock_available_immediately_exclude_location.stock_location_search_view
 msgid "Excluded from immediately usable quantities"
 msgstr "Виключено з негайно доступних кількостей"
+
+#. module: stock_available_immediately_exclude_location
+#: model:ir.model.fields,help:stock_available_immediately_exclude_location.field_stock_location__exclude_from_immediately_usable_qty
+msgid "This property is not inherited by children locations"
+msgstr "Ця властивість не успадковується дочірніми місцями"
